@@ -1,0 +1,18 @@
+# version: 1.4.1
+
+# Ignore Visual Studio folders and files
+.vs/
+.config/
+*.user
+*.sln.DotSettings
+
+# Ignore Build output folders
+bin/
+obj/
+
+# Ignore generated files
+*.generated.cs
+
+
+# Ignore NSwag generated specification
+*/wwwroot/api/*/docs/api-specification.json
